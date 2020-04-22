@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     email = driver.find_element_by_name("username")
     email.clear()
-    email.send_keys("me.anupsamanta@gmail.com")
+    email.send_keys("instagram username or email")
     password = driver.find_element_by_name("password")
     password.clear()
     password.send_keys("instaPassword")
